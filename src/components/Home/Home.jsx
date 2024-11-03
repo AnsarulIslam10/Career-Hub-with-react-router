@@ -1,6 +1,7 @@
 import React from "react";
 import Banner from "../Banner/Banner";
 import Categories from "../Categories/Categories";
+import Jobs from "../Jobs/Jobs";
 
 const Home = () => {
   return (
@@ -10,8 +11,9 @@ const Home = () => {
           <Banner />
         </div>
       </div>
-      <div className="w-11/12 mx-auto">
+      <div className="max-w-6xl mx-auto">
       <Categories></Categories>
+      <Jobs></Jobs>
       </div>
     </>
   );
